@@ -1,0 +1,24 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main(){
+    int e,f,g,h;
+    cout <<"Masukkan Jumlah Baris: ";
+    cin >> h;
+    for(e=h;h>=0;e--){
+        for(f=e;f>=0;f--){
+            cout <<"";
+        }
+        for(g=1;g<=h-e; g++){
+        cout << "*";
+        }
+        for(g=1;g<h-e; g++){
+        cout << "*";
+        }
+        cout << endl;
+        }
+ _getche();
+ return 0;
+ }
+       
