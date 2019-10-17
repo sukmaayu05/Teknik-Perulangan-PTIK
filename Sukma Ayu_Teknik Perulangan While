@@ -1,6 +1,6 @@
 #include <iostream>
 #include <conio.h>
-using namespace std
+using namespace std;
 int main()
 {
       char pilih='n';
@@ -13,4 +13,5 @@ int main()
       cout<<"Keluar dari looping. Ini pernyataan di luar while."<<endl;
       _getch();
       return 0;
+}
 }
